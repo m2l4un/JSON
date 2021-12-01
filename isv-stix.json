@@ -1,0 +1,192 @@
+{
+    "id": "bundle--7782FDEA-49E5-4E61-B768-B50D3E86FB86",
+    "objects": [
+        {
+            "created": "2019-08-23T14:40:59.719Z",
+            "id": "identity--E7A740F3-EE80-4DCA-B162-CF809164AC32",
+            "identity_class": "system",
+            "modified": "2019-08-23T14:40:59.719Z",
+            "name": "IBM Security Verify",
+            "type": "identity",
+            "allow_custom": "True"
+        },
+        {
+            "created": "2019-08-23T14:38:59.000Z",
+            "created_by_ref": "identity--E7A740F3-EE80-4DCA-B162-CF809164AC32",
+            "first_observed": "2020-11-12T14:38:50.000Z",
+            "id": "observed-data--DBD0092C-7394-4B96-9E74-3955278CEA50",
+            "last_observed": "2020-11-12T14:38:50.000Z",
+            "modified": "2020-11-12T14:38:50.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "resolves_to_refs": "1",
+                    "type": "ipv4-addr",
+                    "value": "192.168.0.1"
+                },
+                "1": {
+                    "type": "mac-addr",
+                    "value": "AA:BB:CC:DD:11:22"
+                },
+                "2": {
+                    "type": "x-isv-access-token",
+                    "value": "g9AAGdl3Ha977Wlx6kKKSqaLhJefUJuUNmFLCbxz"
+                },
+                "3": {
+                    "type": "x-isv-url",
+                    "value": "/v2.0/Users"
+                },
+                "4": {
+                    "type": "x-isv-http-op",
+                    "value": "GET"
+                },
+                "5": {
+                    "type": "x-isv-description",
+                    "value": "Valid per request presentation of an access token (WGA)"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2019-08-23T14:38:59.000Z",
+            "created_by_ref": "identity--E7A740F3-EE80-4DCA-B162-CF809164AC32",
+            "first_observed": "2020-11-12T14:38:59.000Z",
+            "id": "observed-data--86F52264-E9F2-422B-8FD6-605CB38F6C4E",
+            "last_observed": "2020-11-12T14:38:59.000Z",
+            "modified": "2020-11-12T14:38:59.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "type": "x-isv-corr-id",
+                    "value": "2311F467-F717-4110-B0AB-19FF8ACEECBC"
+                },
+                "1": {
+                    "type": "x-isv-access-token",
+                    "value": "g9AAGdl3Ha977Wlx6kKKSqaLhJefUJuUNmFLCbxz"
+                },
+                "2": {
+                    "type": "x-isv-expires",
+                    "value": "2020-12-11T06:46:46Z"
+                },
+                "3": {
+                    "type": "x-isv-active",
+                    "value": "TRUE"
+                },
+                "4": {
+                    "type": "x-isv-tenant-uuid",
+                    "value": "0be0c11e-870e-4cac-acfb-cf6fb228fcaa"
+                },
+                "5": {
+                    "type": "x-isv-target_host",
+                    "value": "davebridge.dev.verify.ibmcloudsecurity.com"
+                },
+                "6": {
+                    "type": "x-isv-entitlements_source",
+                    "value": "Lookup"
+                },
+                "7": {
+                    "type": "x-isv-tenant",
+                    "value": "davebridge.dev.verify.ibmcloudsecurity.com"
+                },
+                "8": {
+                    "type": "x-isv-apiclient",
+                    "value": "52857026-6a63-4b2a-b3c1-2c7bb39de7a0"
+                },
+                "9": {
+                    "type": "x-isv-description",
+                    "value": "Access token STS validation"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2019-08-23T14:38:59.000Z",
+            "created_by_ref": "identity--E7A740F3-EE80-4DCA-B162-CF809164AC32",
+            "first_observed": "2020-11-12T14:50:50.000Z",
+            "id": "observed-data--CF28266A-B9D5-4FA8-8AD9-568516FA8E13",
+            "last_observed": "2020-11-12T14:50:50.000Z",
+            "modified": "2020-11-12T14:50:50.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "resolves_to_refs": "1",
+                    "type": "ipv4-addr",
+                    "value": "222.222.222.1"
+                },
+                "1": {
+                    "type": "mac-addr",
+                    "value": "AA:BB:CC:DD:11:22"
+                },
+                "2": {
+                    "type": "x-isv-access-token",
+                    "value": "g9AAGdl3Ha977Wlx6kKKSqaLhJefUJuUNmFLCbxz"
+                },
+                "3": {
+                    "type": "x-isv-url",
+                    "value": "/v2.0/Users"
+                },
+                "4": {
+                    "type": "x-isv-http-op",
+                    "value": "GET"
+                },
+                "5": {
+                    "type": "x-isv-description",
+                    "value": "Invalid per request presentation of an access token (WGA) from another IP address"
+                }
+            },
+            "type": "observed-data"
+        },
+        {
+            "created": "2019-08-23T14:38:59.000Z",
+            "created_by_ref": "identity--E7A740F3-EE80-4DCA-B162-CF809164AC32",
+            "first_observed": "2020-11-12T14:51:59.000Z",
+            "id": "observed-data--BB267F02-8AD7-4C29-B1BD-E7C685C17E16",
+            "last_observed": "2020-11-12T14:51:59.000Z",
+            "modified": "2020-11-12T14:51:59.000Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "type": "x-isv-corr-id",
+                    "value": "1B2EED9B-5563-4839-A445-78DAF20650E2"
+                },
+                "1": {
+                    "type": "x-isv-access-token",
+                    "value": "g9AAGdl3Ha977Wlx6kKKSqaLhJefUJuUNmFLCbxz"
+                },
+                "2": {
+                    "type": "x-isv-expires",
+                    "value": "2020-12-11T06:46:46Z"
+                },
+                "3": {
+                    "type": "x-isv-active",
+                    "value": "TRUE"
+                },
+                "4": {
+                    "type": "x-isv-tenant-uuid",
+                    "value": "0be0c11e-870e-4cac-acfb-cf6fb228fcaa"
+                },
+                "5": {
+                    "type": "x-isv-target_host",
+                    "value": "davebridge.dev.verify.ibmcloudsecurity.com"
+                },
+                "6": {
+                    "type": "x-isv-entitlements_source",
+                    "value": "Lookup"
+                },
+                "7": {
+                    "type": "x-isv-tenant",
+                    "value": "davebridge.dev.verify.ibmcloudsecurity.com"
+                },
+                "8": {
+                    "type": "x-isv-apiclient",
+                    "value": "52857026-6a63-4b2a-b3c1-2c7bb39de7a0"
+                },
+                "9": {
+                    "type": "x-isv-description",
+                    "value": "Access token STS validation"
+                }
+            },
+            "type": "observed-data"
+        }
+    ]
+}
